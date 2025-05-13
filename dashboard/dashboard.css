@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.date-range select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: white;
+  font-size: 14px;
+}
+
+.summary-cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.time {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.percent {
+  font-size: 18px;
+  color: #666;
+}
+
+.productive {
+  background-color: #e8f5e9;
+  border-left: 4px solid #4CAF50;
+}
+
+.unproductive {
+  background-color: #ffebee;
+  border-left: 4px solid #F44336;
+}
+
+.average {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196F3;
+}
+
+.chart-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.top-sites, .weekly-report {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  font-size: 18px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.sites-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.site-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.site-name {
+  font-weight: bold;
+}
+
+.site-time {
+  color: #666;
+}
+
+.site-productive {
+  border-left: 4px solid #4CAF50;
+}
+
+.site-unproductive {
+  border-left: 4px solid #F44336;
+}
+
+#weekly-report-content {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}

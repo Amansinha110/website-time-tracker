@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Time Tracker Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Time Tracker Dashboard</h1>
+      <div class="date-range">
+        <select id="time-range">
+          <option value="7">Last 7 Days</option>
+          <option value="30">Last 30 Days</option>
+          <option value="90">Last 90 Days</option>
+          <option value="all">All Time</option>
+        </select>
+      </div>
+    </header>
+    
+    <div class="summary-cards">
+      <div class="card productive">
+        <h3>Productive Time</h3>
+        <div id="total-productive" class="time">0h 0m</div>
+        <div id="productive-percent" class="percent">0%</div>
+      </div>
+      <div class="card unproductive">
+        <h3>Unproductive Time</h3>
+        <div id="total-unproductive" class="time">0h 0m</div>
+        <div id="unproductive-percent" class="percent">0%</div>
+      </div>
+      <div class="card average">
+        <h3>Daily Average</h3>
+        <div id="daily-average" class="time">0h 0m</div>
+        <div id="average-percent" class="percent">0%</div>
+      </div>
+    </div>
+    
+    <div class="chart-container">
+      <canvas id="timeChart"></canvas>
+    </div>
+    
+    <div class="top-sites">
+      <h2>Top Websites</h2>
+      <div id="sites-list" class="sites-list">
+        <!-- Sites will be added here dynamically -->
+      </div>
+    </div>
+    
+    <div class="weekly-report">
+      <h2>Weekly Report</h2>
+      <div id="weekly-report-content">
+        <!-- Weekly report will be added here -->
+      </div>
+      <button id="generate-report">Generate Weekly Report</button>
+    </div>
+  </div>
+  
+  <script src="dashboard.js"></script>
+</body>
+</html>
