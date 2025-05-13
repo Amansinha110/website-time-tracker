@@ -47,6 +47,9 @@ At the moment I am studying Rust for developing high-performance applications, a
     }
 }
 ```
+<div class="weather-icon">
+      <img src="https://github.com/Amansinha110/website-time-tracker/blob/master/Screenshot%202025-05-13%20063327.png" alt="Weather-webpage">
+</div>
 
 ```javascript
 2>Background.js
