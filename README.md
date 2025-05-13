@@ -72,4 +72,9 @@ setInterval(() => {
     });
 }, 60000); // Updates every minute
 ```
+
+<div class="weather-icon">
+      <img src="https://github.com/Amansinha110/website-time-tracker/blob/master/Screenshot%202025-05-13%20063401.png" alt="Weather-webpage">
+</div>
+
 ✅ Test locally and tweak functionality ✅ Add customizable user settings (e.g., alerts for excessive browsing) ✅ Implement graphical insights for better analytics
